@@ -1,0 +1,321 @@
+/* hero section */
+
+@media(max-width:768px){
+    #logo{
+        width: 30px;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    .navbar-nav li ::before{
+       display: none;
+    }
+    .navbar-nav li :hover::before{
+        display: none;
+    }
+    .hero-text{
+        margin-top: 32px;
+        padding: 5px;
+    }
+    .hero-text img{
+        width: 40%;
+        margin-left: 0px;
+    }
+    .x h2{
+        font-size: 30px;
+    }
+    .x h1{
+        font-size: 50px;
+        font-weight: 800;
+    }
+    .x #tag{
+        letter-spacing: 0px;
+    }
+    .x p{
+        margin-top: 10px;
+    }
+    .hero-text .btn{
+        margin-top: 10px;
+        padding-left: 15px;
+        padding-right: 30px;
+        font-size: 18px;
+    }
+    .navbar-nav .nav-item{
+        /* border: 1px solid red; */
+        font-size: 18px;
+        /* margin-left: 20px; */
+    }
+
+    .hero-img #display{
+        display: block;
+    }
+    .hero-img{
+        /* border: 1px solid red; */
+    }
+    .animate1 img{
+        width: 40%;
+        left: 50px;
+        top: 70px;
+    }
+    @keyframes animate1 {
+        0%{
+            top: 50px;
+        }
+        50%{
+            top: 70px;
+        }
+        100%{
+            top: 50px;
+        }
+    }
+    .animate2 img{
+        width: 45%;
+        left: 160px;
+        top: 145px;
+    }
+    @keyframes animate2 {
+        0%{
+            left: 140px;
+            top: 120px;
+        }
+        50%{
+            left: 175px;
+            top: 145px;
+        }
+        100%{
+            left: 140px;
+            top: 120px;
+        }
+    }
+}
+
+
+/* mission vision */
+
+@media(max-width:768px){
+    .m-v-c{
+        padding: 0px;
+        height: 950px;
+        padding-top: 10px;
+    }
+    .box{
+        width: 340px;
+        height: 260px;
+        padding: 18px;
+        margin-bottom: 12px;
+        padding: 18px;
+    }
+    #mission{
+        height: 350px;
+    }
+    .box i{
+        font-size: 30px;
+    }
+    .box h4{
+        font-size: 20px;
+        margin-top: 12px;
+    }
+    .box p{
+        margin-top: 18px;
+        color: black;
+    }
+    .box hr{
+        width: 25%;
+    }
+    .box ul li{
+        color: black;
+    }
+    .box .slide-dot{
+        margin-top: 35px;
+    }
+}
+
+
+/* about section */
+@media(max-width:768px){
+    .about-section{
+        padding-top: 20px;
+    }
+    .about-text{
+        padding-top: 5px;
+    }
+    .about-text h1{
+        font-size: 30px;
+    }
+    .about-text .line{
+        width: 100px;
+    }
+    .about-text p{
+        margin-top: 20px;
+    }
+    .about-text .btn{
+        margin-top: 10px;
+        padding-left: 15px;
+        padding-right: 30px;
+        font-size: 18px;
+    }
+
+    .about-img #img1,#img2,#img3,#img4,#img4,#img5,#img6,#imgx{
+        display: none;
+    }
+    .about-img{
+        /* border: 1px solid white; */
+        margin-left: 2px;
+        padding: 0px;
+        margin-top: 50px;
+    }
+    .about-img #not-in-laptop{
+        display: block;
+        /* border: 1px solid red; */
+        width: 450px;
+    }
+}
+
+/* Workshops section */
+@media(max-width:768px){
+    .workshop-img{
+        display: none;
+    }
+    .workshop-img-mobile{
+        display: block;
+    }
+    .workshop-section{
+        height: 1350px;
+    }
+
+
+
+    .workshop-text{
+        padding: 5px;
+        line-height: 25px;
+        /* height: 750px; */
+    }
+    .workshop-text h1{
+        font-size: 34px;
+    }
+    .workshop-text .line{
+        width: 120px;
+    }
+    .workshop-text .btn{
+        margin-top: 10px;
+        padding-left: 15px;
+        padding-right: 30px;
+        font-size: 18px;
+    }
+
+
+
+    /*  */
+    #mobile_gallary{
+        display: block;
+    }
+    .wave{
+        /* margin-top:-100px ; */
+        margin-top: 0px;
+    position: relative;
+    top: -140px;
+    display: none;
+    }
+
+}
+
+
+/* Active members */
+@media(max-width:768px){
+    .card-info-main{
+        /* margin-top: 0px; */
+    }
+}
+
+
+/* MOBILE version gallery pop up */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    z-index: -1;
+  }
+  
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    z-index: 2;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+
+/* Active members */
+@media only screen and (max-width: 700px){
+
+    
+    .card-section-heading h2{
+        
+        font-size: 35px;
+        margin-top: 50px;
+    }
+}
+
+/* footer section */
+@media only screen and (max-width: 700px){
+    .footer{
+        height: 100%;
+        padding: 5px;
+        padding-top: 20px;
+        border-radius: 50px 15px 0 0;
+        padding-bottom: 80px;
+    }
+    .footer-text{
+        padding: 5px;
+    }
+
+    .rights{
+        padding: 5px;
+    }
+}
